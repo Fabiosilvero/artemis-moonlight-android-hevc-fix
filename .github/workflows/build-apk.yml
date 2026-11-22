@@ -38,7 +38,7 @@ jobs:
           java-version: '17'
 
       - name: Android SDK einrichten
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: SDK-Pakete und NDK installieren
         run: |
